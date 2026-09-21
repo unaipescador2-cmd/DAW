@@ -1,11 +1,12 @@
-nombre = "unai"
-apellido = "pescador"
-print(nombre, apellido)
+nombre = "Unai"
+apellido = "Pescador"
 edad = 20
-print("tiene", edad, "años")
-altura = 1.75
-print("mide", altura, "metros")
+nombre_completo = nombre + " " + apellido
 
-precio = 19.99
-cantidad = "pedro"
-print("El total es:", precio * cantidad)
+_nombre_interno = "Identificador de usuario"
+PI = 3.1416
+
+print("Nombre:", nombre_completo)
+print("Edad:", edad)
+print("Dato interno:", _nombre_interno)
+print("Valor de PI:", PI)
