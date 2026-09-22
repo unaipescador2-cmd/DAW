@@ -10,3 +10,8 @@ print("Nombre:", nombre_completo)
 print("Edad:", edad)
 print("Dato interno:", _nombre_interno)
 print("Valor de PI:", PI)
+
+
+es_mayor_de_edad = edad >= 18
+
+print(es_mayor_de_edad)
